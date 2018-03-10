@@ -1,0 +1,1708 @@
+
+/**********************************************/
+#badmintionBlog{
+    padding:50px 20px 20px 20px;
+    width:100%;
+    background: #eee;
+}
+
+#badmintionBlog .blogcontent{
+    width:100%;
+    padding:20px;
+}
+
+#badmintionBlog .blogcontent a{
+  text-decoration: none;
+}
+
+#badmintionBlog .blogcontent h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+#badmintionBlog .blogcontent h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+}
+
+#badmintionBlog .blogcontent img{
+  width:100%;
+  margin:auto;
+ /* height:160px;*/
+  opacity: 0.9;
+}
+#badmintionBlog .blogcontent img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#badmintionBlog .blogcontent p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#badmintionBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+
+.badmintionrules{
+  padding:30px;
+}
+.badmintionrules h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:220%;
+    margin:0px;
+    padding:0px;
+}
+
+.badmintionrules  h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:160%;
+
+     padding:5px;
+}
+.badmintionrules  h3{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+
+}
+.badmintionrules p{
+    font-family: aria;
+    color:black;
+    font-size:100%;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#badmintionBlog .blogDown{
+    width:100%;
+    padding:20px;
+}
+#badmintionBlog .blogDown .media:hover{
+  margin-left:10px;
+  transition: 0.5s;
+}
+#badmintionBlog .blogDown a{
+  text-decoration: none;
+  text-align:justify;
+}
+
+#badmintionBlog .blogDown h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+
+#badmintionBlog .blogDown h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:120%;
+}
+#badmintionBlog .blogDown h2 a{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:100%;
+}
+
+#badmintionBlog .blogDown img{
+  width:100%;
+  margin:auto;
+  height:160px;
+  opacity: 0.9;
+}
+
+#badmintionBlog .blogDown #mediaimg{
+    width:50px;
+    height:50px;
+    border:2px solid white;
+}
+
+
+#badmintionBlog .blogDown img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#badmintionBlog .blogDown p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#badmintionBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+}
+/**********************************************/
+
+
+
+
+/**********************************************/
+#cricketBlog{
+    padding:50px 20px 20px 20px;
+    width:100%;
+    background: #eee;
+}
+
+#cricketBlog .blogcontent{
+    width:100%;
+    padding:20px;
+}
+
+#cricketBlog .blogcontent{
+  text-decoration: none;
+}
+
+#cricketBlog .blogcontent h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+#cricketBlog .blogcontent h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+}
+
+#cricketBlog .blogcontent img{
+  width:100%;
+  margin:auto;
+ /* height:160px;*/
+  opacity: 0.9;
+}
+#cricketBlog .blogcontent img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#cricketBlog .blogcontent p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#cricketBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+
+.cricketrules{
+  padding:30px;
+}
+.cricketrules h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:220%;
+    margin:0px;
+    padding:0px;
+}
+
+.cricketrules  h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:160%;
+
+     padding:5px;
+}
+.cricketrules  h3{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+
+}
+.cricketrules p{
+    font-family: aria;
+    color:black;
+    font-size:100%;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#cricketBlog .blogDown{
+    width:100%;
+    padding:20px;
+}
+#cricketBlog .blogDown .media:hover{
+  margin-left:10px;
+  transition: 0.5s;
+}
+#cricketBlog .blogDown a{
+  text-decoration: none;
+  text-align:justify;
+}
+
+#cricketBlog .blogDown h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+
+#cricketBlog .blogDown h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:120%;
+}
+#cricketBlog .blogDown h2 a{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:100%;
+}
+
+#cricketBlog .blogDown img{
+  width:100%;
+  margin:auto;
+  height:160px;
+  opacity: 0.9;
+}
+
+#cricketBlog .blogDown #mediaimg{
+    width:50px;
+    height:50px;
+    border:2px solid white;
+}
+
+
+#cricketBlog .blogDown img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#cricketBlog .blogDown p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#cricketBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+}
+/**********************************************/
+
+
+
+
+
+/**********************************************/
+#footballBlog{
+    padding:50px 20px 20px 20px;
+    width:100%;
+    background: #eee;
+}
+
+#footballBlog .blogcontent{
+    width:100%;
+    padding:20px;
+}
+
+#footballBlog .blogcontent a{
+  text-decoration: none;
+}
+
+#footballBlog .blogcontent h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+#footballBlog .blogcontent h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+}
+
+#footballBlog .blogcontent img{
+  width:100%;
+  margin:auto;
+ /* height:160px;*/
+  opacity: 0.9;
+}
+#footballBlog .blogcontent img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#footballBlog .blogcontent p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#footballBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+
+.footballrules{
+  padding:30px;
+}
+.footballrules h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:220%;
+    margin:0px;
+    padding:0px;
+}
+
+.footballrules  h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:160%;
+
+     padding:5px;
+}
+.footballrules  h3{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+
+}
+.footballrules p{
+    font-family: aria;
+    color:black;
+    font-size:100%;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#footballBlog .blogDown{
+    width:100%;
+    padding:20px;
+}
+#footballBlog .blogDown .media:hover{
+  margin-left:10px;
+  transition: 0.5s;
+}
+#footballBlog .blogDown a{
+  text-decoration: none;
+  text-align:justify;
+}
+
+#footballBlog .blogDown h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+
+#footballBlog .blogDown h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:120%;
+}
+#footballBlog .blogDown h2 a{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:100%;
+}
+
+#footballBlog .blogDown img{
+  width:100%;
+  margin:auto;
+  height:160px;
+  opacity: 0.9;
+}
+
+#footballBlog .blogDown #mediaimg{
+    width:50px;
+    height:50px;
+    border:2px solid white;
+}
+
+
+#footballBlog .blogDown img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#footballBlog .blogDown p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#footballBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+}
+/**********************************************/
+
+
+
+
+/**********************************************/
+#basketballBlog{
+    padding:50px 20px 20px 20px;
+    width:100%;
+    background: #eee;
+}
+
+#basketballBlog .blogcontent{
+    width:100%;
+    padding:20px;
+}
+
+#basketballBlog .blogcontent a{
+  text-decoration: none;
+}
+
+#basketballBlog .blogcontent h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+#basketballBlog .blogcontent h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+}
+
+#basketballBlog .blogcontent img{
+  width:100%;
+  margin:auto;
+ /* height:160px;*/
+  opacity: 0.9;
+}
+#basketballBlog .blogcontent img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#basketballBlog .blogcontent p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#basketballBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+
+.basketballrules{
+  padding:30px;
+}
+.basketballrules h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:220%;
+    margin:0px;
+    padding:0px;
+}
+
+.basketballrules  h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:160%;
+
+     padding:5px;
+}
+.basketballrules  h3{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+
+}
+.basketballrules p{
+    font-family: aria;
+    color:black;
+    font-size:100%;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#basketballBlog .blogDown{
+    width:100%;
+    padding:20px;
+}
+#basketballBlog .blogDown .media:hover{
+  margin-left:10px;
+  transition: 0.5s;
+}
+#basketballBlog .blogDown a{
+  text-decoration: none;
+  text-align:justify;
+}
+
+#basketballBlog .blogDown h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+
+#basketballBlog .blogDown h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:120%;
+}
+#basketballBlog .blogDown h2 a{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:100%;
+}
+
+#basketballBlog .blogDown img{
+  width:100%;
+  margin:auto;
+  height:160px;
+  opacity: 0.9;
+}
+
+#basketballBlog .blogDown #mediaimg{
+    width:50px;
+    height:50px;
+    border:2px solid white;
+}
+
+
+#basketballBlog .blogDown img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#basketballBlog .blogDown p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#basketballBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+}
+/**********************************************/
+
+
+
+/**********************************************/
+#chessBlog{
+    padding:50px 20px 20px 20px;
+    width:100%;
+    background: #eee;
+}
+
+#chessBlog .blogcontent{
+    width:100%;
+    padding:20px;
+}
+
+#chessBlog .blogcontent a{
+  text-decoration: none;
+}
+
+#chessBlog .blogcontent h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+#chessBlog .blogcontent h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+}
+
+#chessBlog .blogcontent img{
+  width:100%;
+  margin:auto;
+ /* height:160px;*/
+  opacity: 0.9;
+}
+#chessBlog .blogcontent img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#chessBlog .blogcontent p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#chessBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+
+.chessrules{
+  padding:30px;
+}
+.chessrules h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:220%;
+    margin:0px;
+    padding:0px;
+}
+
+.chessrules  h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:160%;
+
+     padding:5px;
+}
+.chessrules  h3{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+
+}
+.chessrules p{
+    font-family: aria;
+    color:black;
+    font-size:100%;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#chessBlog .blogDown{
+    width:100%;
+    padding:20px;
+}
+#chessBlog .blogDown .media:hover{
+  margin-left:10px;
+  transition: 0.5s;
+}
+#chessBlog .blogDown a{
+  text-decoration: none;
+  text-align:justify;
+}
+
+#chessBlog .blogDown h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+
+#chessBlog .blogDown h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:120%;
+}
+#chessBlog .blogDown h2 a{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:100%;
+}
+
+#chessBlog .blogDown img{
+  width:100%;
+  margin:auto;
+  height:160px;
+  opacity: 0.9;
+}
+
+#chessBlog .blogDown #mediaimg{
+    width:50px;
+    height:50px;
+    border:2px solid white;
+}
+
+
+#chessBlog .blogDown img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#chessBlog .blogDown p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#chessBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+}
+/**********************************************/
+
+
+
+
+/**********************************************/
+#tabletennisBlog{
+    padding:50px 20px 20px 20px;
+    width:100%;
+    background: #eee;
+}
+
+#tabletennisBlog .blogcontent{
+    width:100%;
+    padding:20px;
+}
+
+#tabletennisBlog .blogcontent a{
+  text-decoration: none;
+}
+
+#tabletennisBlog .blogcontent h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+#tabletennisBlog .blogcontent h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+}
+
+#tabletennisBlog .blogcontent img{
+  width:100%;
+  margin:auto;
+ /* height:160px;*/
+  opacity: 0.9;
+}
+#tabletennisBlog .blogcontent img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#tabletennisBlog .blogcontent p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#tabletennisBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+
+.tabletennisrules{
+  padding:30px;
+}
+.tabletennisrules h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:220%;
+    margin:0px;
+    padding:0px;
+}
+
+.tabletennisrules  h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:160%;
+     padding:5px;
+}
+.tabletennisrules  h3{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+
+}
+.tabletennisrules p{
+    font-family: aria;
+    color:black;
+    font-size:100%;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#tabletennisBlog .blogDown{
+    width:100%;
+    padding:20px;
+}
+#tabletennisBlog .blogDown .media:hover{
+  margin-left:10px;
+  transition: 0.5s;
+}
+#tabletennisBlog .blogDown a{
+  text-decoration: none;
+  text-align:justify;
+}
+
+#tabletennisBlog .blogDown h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+
+#tabletennisBlog .blogDown h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:120%;
+}
+#tabletennisBlog .blogDown h2 a{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:100%;
+}
+
+#tabletennisBlog .blogDown img{
+  width:100%;
+  margin:auto;
+  height:160px;
+  opacity: 0.9;
+}
+
+#tabletennisBlog .blogDown #mediaimg{
+    width:50px;
+    height:50px;
+    border:2px solid white;
+}
+
+
+#tabletennisBlog .blogDown img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#tabletennisBlog .blogDown p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#tabletennisBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+}
+/**********************************************/
+
+
+
+/**********************************************/
+#computergamingBlog{
+    padding:50px 20px 20px 20px;
+    width:100%;
+    background: #eee;
+}
+
+#computergamingBlog .blogcontent{
+    width:100%;
+    padding:20px;
+}
+
+#computergamingBlog .blogcontent a{
+  text-decoration: none;
+}
+
+#computergamingBlog .blogcontent h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+#computergamingBlog .blogcontent h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+}
+
+#computergamingBlog .blogcontent img{
+  width:100%;
+  margin:auto;
+ /* height:160px;*/
+  opacity: 0.9;
+}
+#computergamingBlog .blogcontent img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#computergamingBlog .blogcontent p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#computergamingBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+
+.computergamingrules{
+  padding:30px;
+}
+.computergamingrules h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:220%;
+    margin:0px;
+    padding:0px;
+}
+
+.computergamingrules  h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:160%;
+     padding:5px;
+}
+.computergamingrules  h3{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+
+}
+.computergamingrules p{
+    font-family: aria;
+    color:black;
+    font-size:100%;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#computergamingBlog .blogDown{
+    width:100%;
+    padding:20px;
+}
+#computergamingBlog .blogDown .media:hover{
+  margin-left:10px;
+  transition: 0.5s;
+}
+#computergamingBlog .blogDown a{
+  text-decoration: none;
+  text-align:justify;
+}
+
+#computergamingBlog .blogDown h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+
+#computergamingBlog .blogDown h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:120%;
+}
+#computergamingBlog .blogDown h2 a{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:100%;
+}
+
+#computergamingBlog .blogDown img{
+  width:100%;
+  margin:auto;
+  height:160px;
+  opacity: 0.9;
+}
+
+#computergamingBlog .blogDown #mediaimg{
+    width:50px;
+    height:50px;
+    border:2px solid white;
+}
+
+
+#computergamingBlog .blogDown img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#computergamingBlog .blogDown p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#computergamingBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+}
+/**********************************************/
+
+
+
+/**********************************************/
+#volleyballBlog{
+    padding:50px 20px 20px 20px;
+    width:100%;
+    background: #eee;
+}
+
+#volleyballBlog .blogcontent{
+    width:100%;
+    padding:20px;
+}
+
+#volleyballBlog .blogcontent a{
+  text-decoration: none;
+}
+
+#volleyballBlog .blogcontent h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+#volleyballBlog .blogcontent h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+}
+
+#volleyballBlog .blogcontent img{
+  width:100%;
+  margin:auto;
+ /* height:160px;*/
+  opacity: 0.9;
+}
+#volleyballBlog .blogcontent img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#volleyballBlog .blogcontent p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#volleyballBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+
+.volleyballrules{
+  padding:30px;
+}
+.volleyballrules h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:220%;
+    margin:0px;
+    padding:0px;
+}
+
+.volleyballrules  h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:160%;
+     padding:5px;
+}
+.volleyballrules  h3{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+
+}
+.volleyballrules p{
+    font-family: aria;
+    color:black;
+    font-size:100%;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#volleyballBlog .blogDown{
+    width:100%;
+    padding:20px;
+}
+#volleyballBlog .blogDown .media:hover{
+  margin-left:10px;
+  transition: 0.5s;
+}
+#volleyballBlog .blogDown a{
+  text-decoration: none;
+  text-align:justify;
+}
+
+#volleyballBlog .blogDown h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+
+#volleyballBlog .blogDown h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:120%;
+}
+#volleyballBlog .blogDown h2 a{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:100%;
+}
+
+#volleyballBlog .blogDown img{
+  width:100%;
+  margin:auto;
+  height:160px;
+  opacity: 0.9;
+}
+
+#volleyballBlog .blogDown #mediaimg{
+    width:50px;
+    height:50px;
+    border:2px solid white;
+}
+
+
+#volleyballBlog .blogDown img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#volleyballBlog .blogDown p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#volleyballBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+}
+/**********************************************/
+
+
+
+
+
+/**********************************************/
+#futsalBlog{
+    padding:50px 20px 20px 20px;
+    width:100%;
+    background: #eee;
+}
+
+#futsalBlog .blogcontent{
+    width:100%;
+    padding:20px;
+}
+
+#futsalBlog .blogcontent a{
+  text-decoration: none;
+}
+
+#futsalBlog .blogcontent h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+#futsalBlog .blogcontent h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+}
+
+#futsalBlog .blogcontent img{
+  width:100%;
+  margin:auto;
+ /* height:160px;*/
+  opacity: 0.9;
+}
+#futsalBlog .blogcontent img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#futsalBlog .blogcontent p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#futsalBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+
+.futsalrules{
+  padding:30px;
+}
+.futsalrules h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:220%;
+    margin:0px;
+    padding:0px;
+}
+
+.futsalrules  h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:160%;
+     padding:5px;
+}
+.futsalrules  h3{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+
+}
+.futsalrules p{
+    font-family: aria;
+    color:black;
+    font-size:100%;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#futsalBlog .blogDown{
+    width:100%;
+    padding:20px;
+}
+#futsalBlog .blogDown .media:hover{
+  margin-left:10px;
+  transition: 0.5s;
+}
+#futsalBlog .blogDown a{
+  text-decoration: none;
+  text-align:justify;
+}
+
+#futsalBlog .blogDown h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+
+#futsalBlog .blogDown h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:120%;
+}
+#futsalBlog .blogDown h2 a{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:100%;
+}
+
+#futsalBlog .blogDown img{
+  width:100%;
+  margin:auto;
+  height:160px;
+  opacity: 0.9;
+}
+
+#futsalBlog .blogDown #mediaimg{
+    width:50px;
+    height:50px;
+    border:2px solid white;
+}
+
+
+#futsalBlog .blogDown img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#futsalBlog .blogDown p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#futsalBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+}
+/**********************************************/
+
+
+
+/**********************************************/
+#culturalBlog{
+    padding:50px 20px 20px 20px;
+    width:100%;
+    background: #eee;
+}
+
+#culturalBlog .blogcontent{
+    width:100%;
+    padding:20px;
+}
+
+#culturalBlog .blogcontent a{
+  text-decoration: none;
+}
+
+#culturalBlog .blogcontent h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+#culturalBlog .blogcontent h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+}
+
+#culturalBlog .blogcontent img{
+  width:100%;
+  margin:auto;
+ /* height:160px;*/
+  opacity: 0.9;
+}
+#culturalBlog .blogcontent img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#culturalBlog .blogcontent p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#culturalBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+
+.culturalrules{
+  padding:30px;
+}
+.culturalrules h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:220%;
+    margin:0px;
+    padding:0px;
+}
+
+.culturalrules  h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:160%;
+     padding:5px;
+}
+.culturalrules  h3{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+
+}
+.culturalrules p{
+    font-family: aria;
+    color:black;
+    font-size:100%;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#culturalBlog .blogDown{
+    width:100%;
+    padding:20px;
+}
+#culturalBlog .blogDown .media:hover{
+  margin-left:10px;
+  transition: 0.5s;
+}
+#culturalBlog .blogDown a{
+  text-decoration: none;
+  text-align:justify;
+}
+
+#culturalBlog .blogDown h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+
+#culturalBlog .blogDown h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:120%;
+}
+#culturalBlog .blogDown h2 a{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:100%;
+}
+
+#culturalBlog .blogDown img{
+  width:100%;
+  margin:auto;
+  height:160px;
+  opacity: 0.9;
+}
+
+#culturalBlog .blogDown #mediaimg{
+    width:50px;
+    height:50px;
+    border:2px solid white;
+}
+
+
+#culturalBlog .blogDown img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#culturalBlog .blogDown p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#culturalBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+}
+/**********************************************/
+
+
+
+
+/**********************************************/
+#postBlog{
+    padding:50px 20px 20px 20px;
+    width:100%;
+    background: #eee;
+}
+
+#postBlog .blogcontent{
+    padding:20px;
+}
+
+
+
+
+#postBlog .blogcontent h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+
+#postBlog .blogcontent h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:140%;
+}
+
+#postBlog .blogcontent img{
+  width:100%;
+  margin:auto;
+ /* height:160px;*/
+ padding:40px 0px;
+  opacity: 0.9;
+}
+
+#postBlog .blogcontent p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#postBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+
+#postBlog .blogDown{
+    width:100%;
+    padding:20px;
+}
+#postBlog .blogDown .media:hover{
+  margin-left:10px;
+  transition: 0.5s;
+}
+#postBlog .blogDown a{
+  text-decoration: none;
+  text-align:justify;
+}
+
+#postBlog .blogDown h1{
+    font-family: 'Mirza', cursive;
+    color:black;
+    font-size:180%;
+    margin:0px;
+    padding:0px;
+}
+
+
+#postBlog .blogDown h2{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:120%;
+}
+#postBlog .blogDown h2 a{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:100%;
+}
+
+#postBlog .blogDown img{
+  width:100%;
+  margin:auto;
+  height:160px;
+  opacity: 0.9;
+}
+
+#postBlog .blogDown #mediaimg{
+    width:50px;
+    height:50px;
+    border:2px solid white;
+}
+
+
+#postBlog .blogDown img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#postBlog .blogDown p{
+    font-family: aria;
+    color:black;
+    font-size:120%;
+    overflow: hidden;
+}
+
+#postBlog .blogTopHeader{
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:300%;
+    margin:10px;
+    border-bottom: 1px dotted black;
+}
+
+
+#postBlog .postheader {
+    font-family: 'Mirza', cursive;
+    color:#E64A19;
+    font-size:200%;
+    margin:10px;
+   padding-top:20px;
+}
+
+#postBlog .postheader a{
+    color:#E64A19!important;
+}
+
+/**********************************************/
+

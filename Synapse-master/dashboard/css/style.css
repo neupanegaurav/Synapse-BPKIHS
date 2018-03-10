@@ -1,0 +1,554 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,100italic,300italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Oswald:700,400,300);
+
+
+html {
+  font-size: 14px;
+}
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 17px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  p {
+    font-size: 1em;
+    margin-bottom: 1.8em;
+  }
+}
+
+
+
+body {
+  font-size: 1em;
+}
+a {
+  color: #37a6c4;
+}
+a:hover {
+  text-decoration: none;
+  color: #5db9d1;
+}
+
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.page-title {
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.brand {
+  background: #E64A19;
+  position: relative;
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.brand .logo {
+  box-sizing: border-box;
+  padding: 20px;
+  float: left;
+  display: block;
+  width: 200px;
+}
+@media only screen and (min-width: 992px) {
+  .brand .logo {
+    width: 250px;
+  }
+}
+.brand .logo img {
+  height: 20px;
+}
+.brand .menu-btn {
+  float: right;
+  background: #232d3b;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  padding: 20px 20px;
+}
+@media only screen and (min-width: 992px) {
+  .brand .menu-btn {
+    display: none;
+  }
+}
+.brand .ts-profile-nav {
+  float: right;
+  display: none;
+}
+.brand .ts-profile-nav li {
+  float: left;
+  position: relative;
+}
+.brand .ts-profile-nav li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+}
+.brand .ts-profile-nav li ul {
+  visibility: hidden;
+  opacity: 0;
+  right: 0;
+  position: absolute;
+}
+.brand .ts-profile-nav li ul li {
+  float: none;
+  width: 180px;
+}
+.brand .ts-profile-nav li ul li a {
+  padding: 10px 20px;
+  background: #E64A19;
+}
+.brand .ts-profile-nav .ts-account .fa-angle-down {
+  float: right;
+}
+.brand .ts-profile-nav .ts-account > a {
+  width: 180px;
+  background:#E64A19;
+}
+.brand .ts-profile-nav .ts-account .ts-avatar {
+  border-radius: 50%;
+  height: 28px;
+  margin: -10px 0;
+  margin-right: 10px;
+}
+.brand .ts-profile-nav .ts-account:hover ul {
+  visibility: visible;
+  opacity: 1;
+}
+@media only screen and (min-width: 992px) {
+  .brand .ts-profile-nav {
+    display: block;
+  }
+}
+.ts-sidebar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.ts-sidebar::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+.ts-sidebar::-webkit-scrollbar-thumb {
+  background-color: #b4b4b4;
+}
+.ts-sidebar {
+  background: #2c3136;
+  max-height: 0;
+  transition: max-height 0.3s;
+  overflow: hidden;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  bottom: 0;
+  top: 60px;
+  overflow-y: auto;
+}
+.ts-sidebar .hidden-side {
+  display: none;
+}
+.ts-sidebar .ts-sidebar-search {
+  width: 100%;
+  background: #25292a;
+  border: none;
+  padding: 10px 15px;
+  color: #fff;
+}
+@media only screen and (min-width: 992px) {
+  .ts-sidebar .ts-profile-nav {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .ts-sidebar {
+    max-height: 100%;
+    bottom: 0;
+  }
+}
+.ts-sidebar-menu .ts-label {
+  color: #585c64;
+  font-weight: bold;
+  padding: 8px 15px;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+.ts-sidebar-menu a {
+  display: block;
+  text-decoration: none;
+  padding: 12px 15px;
+  color: #fff;
+}
+.ts-sidebar-menu li {
+  position: relative;
+}
+.ts-sidebar-menu li i {
+  color: black;
+  margin-right: 10px;
+}
+.ts-sidebar-menu li ul {
+  display: block;
+  background: rgba(255, 0, 0, 0.12);
+  background: rgba(0, 0, 0, 0.32);
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.menu-open,
+.ts-sidebar-menu .open > ul {
+  max-height: 2000px;
+}
+.ts-sidebar-menu .open > a {
+  background: #F5F5F5;
+  color:black;
+  border-left: 5px solid #1E2125;
+}
+.ts-sidebar-menu > .open > a {
+  background: #FBE9E7;
+  color:black;
+  border-left: 5px solid #E64A19;
+}
+.ts-sidebar-menu .open > .more i {
+  transform: rotate(180deg);
+}
+.more i {
+  color: #fff;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+.more {
+  float: right;
+  min-width: 10%;
+  cursor: pointer;
+}
+.ts-main-content .content-wrapper {
+  padding-top: 15px;
+  margin-top: 60px;
+}
+@media only screen and (min-width: 992px) {
+  .ts-main-content .ts-sidebar {
+    width: 200px;
+    float: left;
+  }
+  .ts-main-content .content-wrapper {
+    margin-left: 200px;
+  }
+}
+/* Login page */
+.login-page {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/*************************************************/
+/********** Synapse Dashboard Css  ***************/
+/*************************************************/
+
+#dashboard_page{
+  position: relative;
+}
+
+
+#dashboard_page #dashboard_img{
+   width:100%;
+}
+
+#dashboard_page #dashboard_content{
+    position: fixed;
+    top:100px;
+    right:2px;
+    background-color:rgba(0,0,0,0.6);
+    width:300px;
+    height:160px;
+    padding:20px;
+}
+
+#dashboard_page #dashboard_content h1{
+    color:white;
+    font-size: 25px;
+    text-align: center;
+}
+
+#dashboard_page #dashboard_content h1 span{
+    color:#E64A19;
+    font-size: 30px;
+} 
+
+
+#home_container{
+    background-color:rgba(0,0,0,0.6);
+    width:320px;
+    color:white;
+    padding:20px;
+    margin:auto;
+}
+
+#home_page h1{
+     color:white;
+     font-size: 25px;
+     text-align: center;
+}
+
+#home_page #done_button{
+     background:#E64A19;
+     border:0px;
+     padding:10px 20px;
+}
+
+#cultural_container{
+    background-color:rgba(0,0,0,0.6);
+    width:420px;
+    color:white;
+    padding:20px;
+    margin:auto;
+}
+
+#cultural_container h1{
+     color:white;
+     font-size: 25px;
+     text-align: center;
+}
+
+#cultural_container #done_button{
+     background:#E64A19;
+     border:0px;
+     padding:10px 20px;
+}
+
+
+#cultural_content {
+    padding-bottom: 20px;
+}
+
+#cultural_content  textarea{
+     width:100%;
+     color:black;
+     padding:5px;
+}
+
+#cultural_content  input{
+     width:100%;
+     color:black;
+     padding:5px;
+}
+
+#literary_container{
+    background-color:rgba(0,0,0,0.6);
+    width:420px;
+    color:white;
+    padding:20px;
+    margin:auto;
+}
+
+#literary_container h1{
+     color:white;
+     font-size: 25px;
+     text-align: center;
+}
+
+#literary_container #done_button{
+     background:#E64A19;
+     border:0px;
+     padding:10px 20px;
+}
+
+
+#literary_content {
+    padding-bottom: 20px;
+}
+
+#literary_content  textarea{
+     width:100%;
+     color:black;
+     padding:5px;
+}
+
+#literary_content  input{
+     width:100%;
+     color:black;
+     padding:5px;
+}
+
+
+#sports_container{
+    background-color:rgba(0,0,0,0.6);
+    width:420px;
+    color:white;
+    padding:20px;
+    margin:auto;
+}
+
+#sports_container h1{
+     color:white;
+     font-size: 25px;
+     text-align: center;
+}
+
+#sports_container #done_button{
+     background:#E64A19;
+     border:0px;
+     padding:10px 20px;
+}
+
+
+#sports_content {
+    padding-bottom: 20px;
+}
+
+#sports_content  textarea{
+     width:100%;
+     color:black;
+     padding:5px;
+}
+
+#sports_content  input{
+     width:100%;
+     color:black;
+     padding:5px;
+}
+
+#sports_content  select{
+     width:100%;
+     color:black;
+     padding:5px;
+}
+
+
+#gallery_container{
+    background-color:rgba(0,0,0,0.6);
+    width:420px;
+    color:white;
+    padding:20px;
+    margin:auto;
+}
+
+#gallery_container h1{
+     color:white;
+     font-size: 25px;
+     text-align: center;
+}
+
+#gallery_container #done_button{
+     background:#E64A19;
+     border:0px;
+     padding:10px 20px;
+}
+
+
+#gallery_content {
+    padding-bottom: 20px;
+}
+
+#gallery_content  textarea{
+     width:100%;
+     color:black;
+     padding:5px;
+}
+
+#gallery_content  input{
+     width:100%;
+     color:black;
+     padding:5px;
+}
+
+
+
+.login-page{
+  background-image: url(../img/synapse-pic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#login_container{
+    background-color:rgba(0,0,0,0.6);
+    width:100%;
+    height:100%;
+}
+
+#login_content{
+     padding-bottom: 20px;
+}
+
+#login_well{
+  background-color: #FBE9E7;
+}
+
+#login_content button{
+     background-color: #E64A19;
+}
+
+
+#registerdata_container{
+   width:100%;
+   padding:20px;
+   margin:auto;
+}
+
+#registerdata_container h1{
+     color:black;
+     font-size: 25px;
+     text-align: center;
+}
+
+
+#registerdata_content{
+  width:100%;
+  padding:5px;
+  margin:auto;
+}
+
+#registerdata_content_parts{
+  text-align:center;
+  margin:5px;
+}
+
+#registerdata_content_parts select{
+   width:200px;
+   color:black;
+   padding:5px;
+   margin:5px;
+}
+
+#registerdata_content_parts input{
+    background:white;
+    width:200px;
+    padding:5px;
+    color:black;
+    margin-bottom: 20px;
+}
+
+#register_table tr th{
+     background:black;
+     color:white;
+     padding-top:10px;
+     padding-bottom:10px;
+}
+
+#register_img{
+    width:80px;
+    height:80px;
+}
+
+.custom_icon_font{
+     font-size: 18px;
+     color:black;
+}
+/*************************************************/
+/********** Synapse Dashboard Css  ***************/
+/*************************************************/

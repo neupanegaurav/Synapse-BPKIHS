@@ -1,0 +1,890 @@
+@media only screen and (min-width:1200px){
+#register_here figure img {
+   width:100%;
+   height:586px;
+}
+
+#homeBlog .blogDown .media:hover{
+  margin-left:10px;
+  transition: 1s;
+}
+
+#literaryBlog  .blogDown .media:hover,
+#culturalBlog  .blogDown .media:hover,
+#footballBlog  .blogDown .media:hover,
+#cricketBlog  .blogDown .media:hover,
+#basketballBlog  .blogDown .media:hover,
+#volleyballBlog  .blogDown .media:hover,
+#tabletennisBlog  .blogDown .media:hover,
+#badmintonBlog  .blogDown .media:hover,
+#futsalBlog  .blogDown .media:hover,
+#chessBlog  .blogDown .media:hover,
+#computergamingBlog .blogDown .media:hover{
+  margin-left:10px;
+  transition: 0.5s;
+}
+
+#postBlog .blogDown .media:hover{
+  margin-left:10px;
+  transition: 0.5s;
+}
+
+#literaryBlog .blogcontent img:hover,
+#culturalBlog .blogcontent img:hover,
+#footballBlog .blogcontent img:hover,
+#cricketBlog .blogcontent img:hover,
+#basketballBlog .blogcontent img:hover,
+#volleyballBlog .blogcontent img:hover,
+#tabletennisBlog .blogcontent img:hover,
+#badmintonBlog .blogcontent img:hover,
+#futsalBlog .blogcontent img:hover,
+#chessBlog .blogcontent img:hover,
+#computergamingBlog .blogcontent img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#homeBlog .blogSm img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#homeBlog .blogDown img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#homeBlog .blogLg img:hover{
+  transform: scale(1.01);
+  transition: 1s;
+}
+}
+
+@media (min-width:992px) and (max-width:1199px){ 
+#register_here #registerContent{
+    margin:0px;
+}
+
+#register_here figure img {
+   width:100%;
+   height:586px;
+}
+#literaryBlog .blogcontent img:hover,
+#culturalBlog .blogcontent img:hover,
+#footballBlog .blogcontent img:hover,
+#cricketBlog .blogcontent img:hover,
+#basketballBlog .blogcontent img:hover,
+#volleyballBlog .blogcontent img:hover,
+#tabletennisBlog .blogcontent img:hover,
+#badmintonBlog .blogcontent img:hover,
+#futsalBlog .blogcontent img:hover,
+#chessBlog .blogcontent img:hover,
+#computergamingBlog .blogcontent img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+
+#homeBlog .blogSm img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#homeBlog .blogDown img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+#homeBlog .blogLg img:hover{
+  transform: scale(1.01);
+  transition: 1s;
+}
+
+
+
+#homeBlog .blogLg h1{
+    font-size:200%;
+     top:-14px;
+}
+
+#homeBlog .blogLg img{
+  height:440px;
+}
+
+#homeBlog .blogLg p{
+    font-size:120%;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width:991px){
+#register_here #registerContent{
+    margin:0px!important;
+}
+
+
+
+}
+
+@media (min-width: 600px) and (max-width:991px){
+
+.synapsehomeinfo{
+  float:left!important;
+  width:50%!important;
+}
+
+.synapseslider{
+  float:left!important;
+  width:50%!important;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width:1035px){
+#register_here #registerContent{
+    margin:20px 0 0 -20px;
+}
+
+
+}
+
+
+@media (min-width:645px ) and (max-width:767px){
+
+.navbar-default .navbar-collapse{
+    border: 0px;
+    margin-top: 43px;
+}
+
+#register_here #registerContent{
+    margin:0px;
+}
+
+#about_us{
+    padding:40px 20px;
+    margin-top: -12px;
+}
+
+
+#about_us #aboutContent{
+    padding:20px 10px;
+
+}
+
+#about_us #aboutContent h1{
+    font-size:20px;
+}
+
+#about_us #aboutContent p{
+    font-size:18px;
+}
+
+.youtubeVideo{
+   width:400px!important;
+   height:280px!important;
+}
+
+
+
+#about_bpkhis{
+    padding:40px 20px;
+}
+
+
+#about_bpkhis #aboutContent{
+    padding:10px;
+
+}
+
+#about_bpkhis #aboutContent h1{
+    font-size:20px;
+}
+#about_bpkhis #aboutContent p{
+    font-size:18px;
+}
+#about_bpkhis #bpkihsPic {
+    width:280px;
+    height:280px;
+    border:5px soild white;
+    margin:auto;
+}
+#about_bpkhis #bpkihsPic:hover {
+   transform:scale(1.05);
+   border:5px soild #E64A19;
+   transition:1s;
+}
+
+
+#sponser_note{
+  width:100%;
+  margin:auto;
+}
+#sponser_note p{
+   font-family: 'Mirza', cursive;
+    font-size:18px;
+}
+
+
+#contact_us{
+    padding: 10px;
+    padding-top:40px;
+}
+
+#contact_us #contactAddress{
+  padding:20px 0px 10px 10px;
+  font-size:18px;
+}
+
+#contact_us #goolgleMap{  
+  margin:20px;
+  padding:0px;
+}
+
+
+#contact_us #goolgleMap iframe{
+  width:400px;
+  height:260px;
+  border:2px solid #E0E0E0;
+}
+
+#contact_us #contactFormpart{
+  padding:10px;
+}
+#contact_us #contactFormpart input, #contact_us #contactFormpart textarea{  
+  padding:20px;
+}
+
+#contact_us #formSend{
+  padding:10px 30px;
+}
+footer{
+     padding:10px;
+}
+
+
+#footer  h1{
+   font-size:20px;
+}
+
+footer .cusGlyphicon {
+     font-size: 20px;
+    color:black ;
+  float:right;
+  margin:-20px 30px 0px 0px ;
+  background:white;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  -webkit-border-radius: 50%; 
+  -moz-border-radius: 50%;    
+    -khtml-border-radius:50%;
+  padding:10px;
+}
+.fa_custom{
+  font-size: 30px!important;
+}
+
+footer #footNav ul h2{
+    font-size: 160%;
+}
+
+
+#footerhomenav1,
+#footerhomenav2{
+  float:left;
+  width:45%;
+}
+
+#footerhomenav3{
+  clear:both;
+  width:100%;
+}
+
+#footer  #copyright{
+   text-align: none;
+   font-size:18px;
+   color:white;
+   padding:5px;
+}
+
+
+/**********************************************/
+#events{
+    padding:50px 0px 20px 0px;
+}
+
+#events .eventscontent .eventscontentdetails{
+  padding:3px 10px 5px 10px;
+}
+
+
+#events .eventscontent h1{
+    font-size:140%;
+}
+
+#events .eventscontent  h2{
+    font-size:120%;
+    padding:10px;
+}
+#events .eventscontent h3{
+    font-size:120%;
+
+}
+
+#events .eventscontent .eventscontentdetails p{
+    font-size:90%;
+}
+
+#events .eventscontent .items{
+ padding-left:20px;
+}
+#events .blogTopHeader{
+    font-size:280%;
+}
+
+/**********************************************/
+
+
+/**********************************************/
+#literaryBlog,
+#culturalBlog,
+#footballBlog,
+#cricketBlog,
+#basketballBlog,
+#volleyballBlog,
+#tabletennisBlog,
+#badmintonBlog,
+#futsalBlog,
+#chessBlog,
+#computergamingBlog{
+    padding:50px 5px 20px 5px;
+}
+
+#literaryBlog .blogcontent,
+#culturalBlog .blogcontent,
+#footballBlog .blogcontent,
+#cricketBlog .blogcontent,
+#basketballBlog .blogcontent,
+#volleyballBlog .blogcontent,
+#tabletennisBlog .blogcontent,
+#badmintonBlog .blogcontent,
+#futsalBlog .blogcontent,
+#chessBlog .blogcontent,
+#computergamingBlog .blogcontent{
+    padding:5px;
+}
+
+.literaryrules,
+.culturalrules,
+.footballrules,
+.cricketrules,
+.basketballrules,
+.volleyballrules,
+.tabletennisrules,
+.badmintonrules,
+.futsalrules,
+.chessrules,
+.computergamingrules{
+  padding:30px 5px;
+}
+
+
+#literaryBlog  .blogDown,
+#culturalBlog  .blogDown,
+#footballBlog  .blogDown,
+#cricketBlog  .blogDown,
+#basketballBlog  .blogDown,
+#volleyballBlog  .blogDown,
+#tabletennisBlog  .blogDown,
+#badmintonBlog  .blogDown,
+#futsalBlog  .blogDown,
+#chessBlog  .blogDown,
+#computergamingBlog .blogDown{
+    padding:20px 5px;
+}
+
+
+#postBlog{
+    padding:50px 5px 20px 5px;
+}
+
+#postBlog .blogcontent{
+    padding:5px;
+}
+
+#postBlog .blogDown{
+    padding:20px 5px;
+}
+/**********************************************/
+
+#homeBlog{
+   padding:50px 0px 20px 0px!important;
+   
+}
+
+
+#homeBlog .blogLg{
+    margin:0px;
+    margin-bottom:20px;
+    padding:0px 5px;
+     border:3px solid white!important;
+}
+#homeBlog .blogLg img{
+  width:100%;
+  margin:auto;
+  height:100%;
+  
+}
+
+#homeBlog .blogLg h1{
+    font-size:120%;
+    top:-5px;
+    width:70%;
+    overflow: hidden;
+}
+#homeBlog .blogLg p{
+    font-size:100%;
+    padding:10px 0px;
+}
+
+#homeBlog .blogSm{
+    width:100%;
+    padding:8px;
+    border:2px solid white;
+}
+
+#homeBlog .blogSm a{
+  text-decoration: none;
+}
+
+#homeBlog .blogSm h1{
+    font-size:160%;
+    text-align: center;
+}
+
+#homeBlog .blogSm img{
+  width:360px;
+  padding:20px;
+  margin:auto;
+  height:180px;
+  opacity: 0.9;
+}
+}
+
+
+
+@media (min-width: 768px) and (max-width:1024px){
+#register_here{
+    padding-top:75px!important;
+}
+#events{
+    padding-top:75px!important;
+}
+#literaryBlog .blogTopHeader,
+#culturalBlog .blogTopHeader,
+#footballBlog .blogTopHeader,
+#cricketBlog .blogTopHeader,
+#basketballBlog .blogTopHeader,
+#volleyballBlog .blogTopHeader,
+#tabletennisBlog .blogTopHeader,
+#badmintonBlog .blogTopHeader,
+#futsalBlog .blogTopHeader,
+#chessBlog .blogTopHeader,
+#computergamingBlog .blogTopHeader{
+   padding-top:75px!important;
+}
+#postBlog .blogTopHeader,
+#postBlog .postheader{
+   padding-top:75px!important;
+}
+
+
+#homeBlog{
+   padding-top:100px!important;
+}
+
+
+
+
+#homeBlog .blogLg{
+    margin-bottom:20px;
+}
+
+
+#homeBlog .blogLg h1{
+    font-size:200%;
+    top:-10px;
+}
+
+
+#homeBlog .blogSm{
+    width:100%;
+    padding:8px;
+    border:2px solid white;
+}
+
+#homeBlog .blogSm a{
+  text-decoration: none;
+}
+
+#homeBlog .blogSm h1{
+    font-size:160%;
+    text-align: center;
+}
+
+#homeBlog .blogSm img{
+  width:360px;
+  padding:20px;
+  margin:auto;
+  height:180px;
+  opacity: 0.9;
+}
+
+}
+
+
+
+@media (min-width: 991px) and (max-width:1091px){
+#register_here figure img {
+   width:100%;
+   height:586px;
+}
+
+}
+
+
+@media screen and (max-width: 644px)   {
+
+.navbar-default .navbar-collapse{
+    border: 0px;
+    margin-top: 43px;
+}
+
+#register_here #registerContent{
+    margin:0px;
+}
+
+#about_us{
+    padding:40px 20px;
+    margin-top: -12px;
+}
+
+
+#about_us #aboutContent{
+    padding:20px 10px;
+
+}
+
+#about_us #aboutContent h1{
+    font-size:20px;
+}
+
+#about_us #aboutContent p{
+    font-size:18px;
+}
+
+.youtubeVideo{
+   width:400px!important;
+   height:280px!important;
+}
+
+
+
+#about_bpkhis{
+    padding:40px 20px;
+}
+
+
+#about_bpkhis #aboutContent{
+    padding:10px;
+
+}
+
+#about_bpkhis #aboutContent h1{
+    font-size:20px;
+}
+#about_bpkhis #aboutContent p{
+    font-size:18px;
+}
+#about_bpkhis #bpkihsPic {
+    width:280px;
+    height:280px;
+    border:5px soild white;
+    margin:auto;
+}
+#about_bpkhis #bpkihsPic:hover {
+   transform:scale(1.05);
+   border:5px soild #E64A19;
+   transition:1s;
+}
+
+
+#sponser_note{
+  width:100%;
+  margin:auto;
+}
+#sponser_note p{
+   font-family: 'Mirza', cursive;
+    font-size:18px;
+}
+
+
+#contact_us{
+    padding: 10px;
+    padding-top:40px;
+}
+
+#contact_us #contactAddress{
+  padding:20px 0px 10px 10px;
+  font-size:18px;
+}
+
+#contact_us #goolgleMap{  
+  margin:20px;
+  padding:0px;
+}
+
+
+#contact_us #goolgleMap iframe{
+  width:400px;
+  height:260px;
+  border:2px solid #E0E0E0;
+}
+
+#contact_us #contactFormpart{
+  padding:10px;
+}
+#contact_us #contactFormpart input, #contact_us #contactFormpart textarea{  
+  padding:20px;
+}
+
+#contact_us #formSend{
+  padding:10px 30px;
+}
+footer{
+     padding:10px;
+}
+
+
+#footer  h1{
+   font-size:20px;
+}
+
+footer .cusGlyphicon {
+     font-size: 20px;
+    color:black ;
+  float:right;
+  margin:-20px 30px 0px 0px ;
+  background:white;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  -webkit-border-radius: 50%; 
+  -moz-border-radius: 50%;    
+    -khtml-border-radius:50%;
+  padding:10px;
+}
+.fa_custom{
+  font-size: 30px!important;
+}
+
+footer #footNav ul h2{
+    font-size: 160%;
+}
+
+
+#footerhomenav1,
+#footerhomenav2{
+  float:left;
+  width:45%;
+}
+
+#footerhomenav3{
+  clear:both;
+  width:100%;
+}
+
+#footer  #copyright{
+   text-align: none;
+   font-size:18px;
+   color:white;
+   padding:5px;
+}
+
+
+/**********************************************/
+#events{
+    padding:50px 0px 20px 0px;
+}
+
+#events .eventscontent .eventscontentdetails{
+  padding:3px 10px 5px 10px;
+}
+
+
+#events .eventscontent h1{
+    font-size:140%;
+}
+
+#events .eventscontent  h2{
+    font-size:120%;
+    padding:10px;
+}
+#events .eventscontent h3{
+    font-size:120%;
+
+}
+
+#events .eventscontent .eventscontentdetails p{
+    font-size:90%;
+}
+
+#events .eventscontent .items{
+ padding-left:20px;
+}
+#events .blogTopHeader{
+    font-size:280%;
+}
+
+/**********************************************/
+
+
+/**********************************************/
+#literaryBlog,
+#culturalBlog,
+#footballBlog,
+#cricketBlog,
+#basketballBlog,
+#volleyballBlog,
+#tabletennisBlog,
+#badmintonBlog,
+#futsalBlog,
+#chessBlog,
+#computergamingBlog{
+    padding:50px 5px 20px 5px;
+}
+
+#literaryBlog .blogcontent,
+#culturalBlog .blogcontent,
+#footballBlog .blogcontent,
+#cricketBlog .blogcontent,
+#basketballBlog .blogcontent,
+#volleyballBlog .blogcontent,
+#tabletennisBlog .blogcontent,
+#badmintonBlog .blogcontent,
+#futsalBlog .blogcontent,
+#chessBlog .blogcontent,
+#computergamingBlog .blogcontent{
+    padding:5px;
+}
+
+.literaryrules,
+.culturalrules,
+.footballrules,
+.cricketrules,
+.basketballrules,
+.volleyballrules,
+.tabletennisrules,
+.badmintonrules,
+.futsalrules,
+.chessrules,
+.computergamingrules{
+  padding:30px 5px;
+}
+
+
+#literaryBlog  .blogDown,
+#culturalBlog  .blogDown,
+#footballBlog  .blogDown,
+#cricketBlog  .blogDown,
+#basketballBlog  .blogDown,
+#volleyballBlog  .blogDown,
+#tabletennisBlog  .blogDown,
+#badmintonBlog  .blogDown,
+#futsalBlog  .blogDown,
+#chessBlog  .blogDown,
+#computergamingBlog .blogDown{
+    padding:20px 5px;
+}
+
+
+#postBlog{
+    padding:50px 5px 20px 5px;
+}
+
+#postBlog .blogcontent{
+    padding:5px;
+}
+
+#postBlog .blogDown{
+    padding:20px 5px;
+}
+/**********************************************/
+
+#homeBlog{
+   padding:50px 0px 20px 0px!important;
+   
+}
+
+
+#homeBlog .blogLg{
+    margin:0px;
+    margin-bottom:20px;
+    padding:0px 5px;
+     border:3px solid white!important;
+}
+#homeBlog .blogLg img{
+  width:100%;
+  margin:auto;
+  height:100%;
+  
+}
+
+#homeBlog .blogLg h1{
+    font-size:120%;
+    top:-5px;
+    width:70%;
+    overflow: hidden;
+}
+#homeBlog .blogLg p{
+    font-size:100%;
+    padding:10px 0px;
+}
+
+#homeBlog .blogSm{
+    width:100%;
+    padding:8px;
+    border:2px solid white;
+}
+
+#homeBlog .blogSm a{
+  text-decoration: none;
+}
+
+#homeBlog .blogSm h1{
+    font-size:160%;
+    text-align: center;
+}
+
+#homeBlog .blogSm img{
+  width:360px;
+  padding:20px;
+  margin:auto;
+  height:180px;
+  opacity: 0.9;
+}
+
+}
+
+
+
+@media screen and (max-width: 380px)   {
+header #logo{
+   width:150px;
+   height:80px;
+   margin-top:-10px;
+   padding:0px;
+   margin-left:-20px;
+}
+
+}
+
+
+
