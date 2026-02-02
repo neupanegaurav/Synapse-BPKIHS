@@ -1,41 +1,51 @@
 <?php
-include('..includes/db.php');
-if (isset($_POST['register'])){
-	$name=$_POST['name'];
-	$email=$_POST['email'];
-	$contact=$_POST['contact'];
-	$college=$_POST['college'];
-	$faculty=$_POST['faculty'];
-	$batch=$_POST['batch'];
-	$event=$_POST['event'];
+/**
+ * Registration Handler
+ * Securely handles participant registration and file uploads.
+ */
 
-	//images of students
-	$photo=$_FILES['photo']['name'];
-	$vphoto=$_FILES['vphoto']['name'];
+require_once dirname(__DIR__) . '/core/Database.php';
 
-	//creating temporary images
-	$temp_name1=$_FILES['photo']['tmp_name'];
-	$temp_name2=$_FILES['vphoto']['tmp_name'];
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'])) {
+	$db = Database::getInstance();
 
-	//validation of forms
-	if($name=='' or $email=='' or $contact=='' or $college=='' or $faculty=='' or $batch=='' or $event==''){
-			echo "<script>alert('Please fill all the fields!')</script>";
-			exit();
-		}
+	$name = trim($_POST['name']);
+	$email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+	$contact = trim($_POST['contact']);
+	$college = trim($_POST['college']);
+	$faculty = trim($_POST['faculty']);
+	$batch = trim($_POST['batch']);
+	$events = isset($_POST['event']) ? implode(', ', (array) $_POST['event']) : '';
 
+	// Validation
+	if (empty($name) || empty($email) || empty($contact)) {
+		echo "<script>alert('Critical fields missing!'); history.back();</script>";
+		exit;
+	}
 
-	//uploading images to server
-		move_uploaded_file($temp_name1,"student_images/$photo");
-		move_uploaded_file($temp_name2,"student_images/$vphoto");
-		
-	//inserting data
-		$insert_data = "insert into register (name, email, contact, college_name,faculty, batch, event, image, voucher_image) values ('$name','$email','contact','college','faculty','batch','event','$photo','$vphoto')";
-		$run_data=mysqli_query($con, $insert_data);
-		if ($run_data){
-			echo "<script>alert('Registered sucessfully!')</script>";
-			header('location:../register.php');
-		}
+	// Handle File Uploads
+	$photo_name = '';
+	$vouch_name = '';
 
+	if (!empty($_FILES['photo']['name'])) {
+		$photo_name = time() . '_' . basename($_FILES['photo']['name']);
+		move_uploaded_file($_FILES['photo']['tmp_name'], UPLOAD_PATH . $photo_name);
+	}
 
+	if (!empty($_FILES['vphoto']['name'])) {
+		$vouch_name = time() . '_v_' . basename($_FILES['vphoto']['name']);
+		move_uploaded_file($_FILES['vphoto']['tmp_name'], UPLOAD_PATH . $vouch_name);
+	}
+
+	// Insert Data using Prepared Statements
+	$sql = "INSERT INTO register (name, email, contact, college_name, faculty, batch, event, image, voucher_image) 
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+
+	try {
+		$db->query($sql, [$name, $email, $contact, $college, $faculty, $batch, $events, $photo_name, $vouch_name]);
+		echo "<script>alert('Registered successfully!'); window.location.href = '../register.php';</script>";
+	} catch (Exception $e) {
+		error_log($e->getMessage());
+		echo "<script>alert('An error occurred. Please try again.'); history.back();</script>";
+	}
 }
-?>
