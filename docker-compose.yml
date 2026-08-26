@@ -1,0 +1,40 @@
+services:
+  web:
+    build: .
+    container_name: synapse-bpkihs
+    restart: unless-stopped
+    ports:
+      - "8103:80"
+    volumes:
+      - synapse-db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://127.0.0.1/ >/dev/null || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+volumes:
+  synapse-db:
+    name: synapse-db
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  main: web
+  author: BPKIHS
+  developer: BPKIHS
+  category: Media
+  title:
+    en_us: Synapse BPKIHS Official
+  tagline:
+    en_us: All Nepal Medical College Meet
+  description:
+    en_us: >-
+      SYNAPSE - All Nepal Medical College Meet festival site for BPKIHS.
+  icon: http://192.168.68.57:8103/synapse2016-icon.png
+  scheme: http
+  port_map: "8103"
+  index: /
+  hostname: ""
